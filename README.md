@@ -2,7 +2,7 @@
 
 This repository demonstrates a sample implementation of the Razorpay payment gateway in PHP using the test mode.
 
-### Demo: https://payments.praveenms.site/
+### Demo: https://razorpay.praveenms.site/
 
 ## Getting Started
 
