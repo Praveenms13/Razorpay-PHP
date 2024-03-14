@@ -2,7 +2,7 @@
 <?php
 
 require 'config.php';
-require 'razorpay-php-2.8.6/Razorpay.php';
+require 'razorpay-php-2.9.0/Razorpay.php';
 session_start();
 use Razorpay\Api\Api;
 

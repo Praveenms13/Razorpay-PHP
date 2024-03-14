@@ -33,8 +33,13 @@ if (empty($_POST['razorpay_payment_id']) === false) {
 
 if ($success === true) {
     $status = "success";
+    // also add the payment price which is successfull
     $html = "<p>Your payment was successful</p>
-             <p>Payment ID: {$_POST['razorpay_payment_id']}</p>";
+             <p>Payment ID: {$_POST['razorpay_payment_id']}</p>
+             <p>Order ID: {$_SESSION['razorpay_order_id']}</p>
+             <p>Signature: {$_POST['razorpay_signature']}</p>
+             <p>Email: {$_SESSION['email']}</p>
+             <p>Price: {$_SESSION['price']}</p>";
 } else {
     $status = "failed";
     $html = "<p>Your payment failed</p>
