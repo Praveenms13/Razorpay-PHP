@@ -10,6 +10,9 @@
 </head>
 
 <body>
+<script>
+    alert("Hi!, Due to unavoidable situations, All the datas in the database are deleted, even I dont have any backup for this database 😭. I am working on it and will fix as soon as possible 🥰. Users Can't Use feel the full potential of this project")
+</script>
 	<section class="h-100">
 		<div class="container h-100">
 			<div class="row justify-content-sm-center h-100">
